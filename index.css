@@ -37,6 +37,7 @@ body {
     color:white;
 }
 
+
 p{
   font-size: 16px; 
   text-align: center; 
@@ -446,13 +447,12 @@ z-index: 1;}*/
 
 #thumbs img{border:1px solid #DDD; cursor:pointer; width:70px; height:44px;}
 
-#thumbs .frame {float:left;padding:2px;border:1px solid #CCC;background:white;border-radius:3px;box-shadow:0 0 3px #BBB;font-size:0;line-height:0;}
-#thumbs .thumb-content {float:left;width:156px;padding-left:18px;}
+#thumbs .frame {float:left;padding:2px;border:1px solid #CCC;background:white;border-radius:3px;box-shadow:0 0 3px #BBB;line-height:0;font-size: 14px;}
+#thumbs .thumb-content {float:left;width:156px;padding-left:18px;font-size: 14px;}
 
 /* Captions in #thumbs .thumb-content */
-#thumbs .thumb-content p {font-weight:bold; color:#BF5D9B; margin:0 0 3px;padding:0;}
-#thumbs .thumb-on .thumb-content p {color:#BB0000;}
-
+#thumbs .thumb-content p {font-weight:bold; color:#BF5D9B; margin:0 0 3px;padding:0;font-size: 14px;}
+#thumbs .thumb-on .thumb-content p {color:#BB0000; font-size: 14px;}
 
 
 /*Thumbnail Image hover text*/
@@ -562,7 +562,7 @@ z-index: 1;}*/
 
 /*PARA A PÁGINA ABOUT ME*/
 
-.citacao p{
+p.citacao{
   font: 400 28px/0.8 'Great Vibes', Helvetica, sans-serif;
   color: #2A3855;
   text-align: center;
@@ -665,7 +665,6 @@ z-index: 1;}*/
 }
 
 
-
 /* NOSSA PARTE */
 
 .dados txt{
@@ -685,7 +684,7 @@ z-index: 1;}*/
 
 }
 
-.bulk{
+.bulk{x
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 3%;
